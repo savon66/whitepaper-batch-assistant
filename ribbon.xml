@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+    <ribbon startFromScratch="false">
+        <tabs>
+            <tab id="tabWhitePaperAssistant" label="白皮制作">
+				<group id="groupWhitePaperAssistant" label="白皮批量制作助手 v1.0">
+                    <button id="buttonOpenWhitePaperAssistant" label="批量制作白皮" onAction="OnWhitePaperButtonClick" imageMso="FileOpen" size="large"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

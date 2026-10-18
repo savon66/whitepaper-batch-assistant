@@ -1,0 +1,20 @@
+{
+	"name": "whitepaper-batch-assistant",
+	"addonType": "wps",
+	"version": "1.0.0",
+	"description": "白皮批量制作助手 v1.0：按 Excel 数据批量套用 Word/Excel 模板，生成白皮封面文件（编号横线原样保留、序号不写入、空横线默认黑体三号）",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite --port 3889",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "node tests/regression.js",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"format": "prettier --write src/"
+	},
+	"devDependencies": {
+		"wps-jsapi-declare": "latest",
+		"vite": "^5.3.1",
+		"wpsjs": "latest"
+	}
+}
